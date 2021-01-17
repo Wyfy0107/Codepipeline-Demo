@@ -17,4 +17,5 @@ artifacts:
   files:
     - index.js
     - package*.json
+    - appspec.yaml
     - '*/*.sh'
