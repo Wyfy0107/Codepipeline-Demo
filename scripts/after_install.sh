@@ -2,4 +2,4 @@
 
 cd /home/ubuntu/app
 sudo npm install
-pm2 delete app >& /dev/null || true
+pm2 delete index >& /dev/null || true
