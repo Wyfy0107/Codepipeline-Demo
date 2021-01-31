@@ -1,6 +1,6 @@
 const app = require('express')();
-const PORT = process.env.PORT || 3000;
+const os = require('os');
+const PORT = 3000;
 
-app.get('/', (req, res) => res.send('hello'));
-app.get('/test', (req, res) => res.send('yo'));
+app.get('/', (req, res) => res.send(`hello from ${os.hostname()} `));
 app.listen(PORT);
